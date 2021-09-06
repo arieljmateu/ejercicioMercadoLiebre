@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registra tu usuarios</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    </head>
+<body>
+<form action="resultado.html" method="POST">
+    <p>
+        <label for="nombre"> Ingresa tu nombre y apellido:</label>
+         <input type="text" id="nombre" name="nombre">
+        </p>
+    <p>
+       <label for="nombre-usuario">Ingresa tu nombre de usuario:</label>
+         <input type="text" id="nombre_usuario" name="nombre-usuario">
+        </p>
+    <p>
+        <label for="fecha">Selecciona tu fecha de nacimiento:</label>
+         <input type="date" name="fecha" id="fecha">
+        </p>
+    <p>
+        <label for="domicilio">Ingresa tu domicilio:</label>
+         <input type="text" name="domicilio" id="domicilio">
+        </p>
+    <p>Perfil de usuario:</p>
+    <section class="perfil">
+        <label for="perfil">Comprar</label>
+         <input type="radio" name="perfil" id="perfil" value="Comprar">
+        <label for="perfil">Vender</label> 
+         <input type="radio" name="perfil" id="perfil" value="Vender">
+    </section>
+    <p>Categorias de interés:</p>
+    <section>
+        <p>
+            <label for="categoria">Electro</label>
+             <input type="checkbox" name="categoria" value="electro">
+             </p> 
+        <p>
+            <label for="categoria">Hogar</label>
+             <input type="checkbox" name="categoria" value="hogar">
+             </p>     
+        <p>
+            <label for="categoria">Moda</label>
+             <input type="checkbox" name="categoria" value="moda">
+             </p>
+        <p>
+            <label for="categoria">Juguetería</label>
+             <input type="checkbox" name="categoria" value="jugueteria">
+             </p>       
+        <p>
+            <label for="categoria">Vida sana</label>
+             <input type="checkbox" name="categoria" value="vida-sana">
+             </p>       
+    </section>     
+    <p>
+        <label for="imagen">Selecciona una foto de perfil:</label>
+         <input type="file" name="imagen"> 
+    </p>
+    <p>
+        <label for="contraseña">Ingresa tu contraseña:</label>
+         <input type="text" name="contraseña" id="contraseña">
+    </p>
+    <p>
+        <label for="contraseña2">Repeti tu contraseña:</label>
+         <input type="text" name="contraseña2" id="contraseña2">
+    </p>
+    <p>
+        <button type="submit">Enviar</button>
+        </p>
+    <p>
+        <button type="reset">Borrar</button>
+        </p>    
+</form>
+</body>
