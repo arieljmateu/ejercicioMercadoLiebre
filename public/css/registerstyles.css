@@ -98,6 +98,7 @@ main p {
     justify-content: center;
     height: 30%;
     width: 50%;
+    margin: 15px;
 }
 
 main p label {
@@ -109,7 +110,7 @@ main p label {
 
 main p input {
     width: 100%;
-    height: 20%;
+    height: 24px;
 }
 
 form {
@@ -131,6 +132,7 @@ main section p {
     align-self: start;
     justify-content: space-between;
     width: 80%;
+    margin: 15px;
 }
 
 main section p label {
@@ -168,7 +170,7 @@ main section p input {
 
 button {
     width: 30%;
-    height: 15%;
+    height: 36px;
 }
 
 button a {
